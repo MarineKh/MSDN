@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
+.container {
+    margin-bottom: 150px;
+}
+.types-content {
+    text-align: center;
+
+    padding-top: 35px;
+    margin-top: 10px;
+}
+.scores {
+    padding: 15px 0;
+}
+.scores div {
+    height: 30px;
+    width: 500px;
+
+    color: #252323;
+    font: 14px open-sans;
+    line-height: 30px;
+
+    border-bottom: 1px solid #bf9c9a;
+    margin: auto;
+}
+.scores p {
+    font-family: open-sans-condensed, sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.scores div:nth-of-type(2) output,
+.scores div:nth-of-type(3) output {
+    font-size: 20px;
+}
+button {
+    width: 150px;
+
+    color: #252323;
+    font-family: open-sans-condensed, sans-serif;
+    /*font-size: 20px;*/
+
+    background-color: #99c038;
+
+    padding: 5px;
+    border: 1px solid #99c038;
+    border-radius: 3px;
+    margin: 15px 25px 0 15px;
+}
+#progressBarCont {
+    width: 900px;
+
+    position: relative;
+
+    margin: auto;
+}
+#progressBar {
+    width: 20px;
+    height: 20px;
+
+    border-radius: 10px;
+    background-color: #f13300;
+}
+/*progress, progress[value] {*/
+    /*-webkit-appearance: none;*/
+/*}*/
+#lblProgress {
+    position: absolute;
+    left: 48%;
+
+    font-family: open-sans-condensed, sans-serif;
+    font-size: 20px;
+}
+.caption p {
+    color: #000;
+    font-family: open-sans-condensed, sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 30px;
+
+    padding: 15px;
+}
+.table {
+    display: table;
+
+    margin: auto;
+}
+.row {
+    display: table-row;
+}
+.column {
+    color: #fff;
+    font-weight: bold;
+    line-height: 30px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+    background-color: #93ad50;
+    display: table-cell;
+    overflow: hidden;
+
+    border-left: 1px solid #7d7c6c;
+}
+.cell {
+    height: 30px;
+    width: 100px;
+
+    color: #252323;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+    overflow: hidden;
+    white-space: nowrap;
+
+    display: table-cell;
+
+    padding: 0 5px;
+    border: 1px solid #fff;
+    border-right: none;
+}
+.row:nth-of-type(2n + 1) {
+    font: 14px open-sans;
+
+    background-color: #bbbaba;
+}
+.row:nth-of-type(2n) {
+    font: 14px open-sans;
+
+    background-color: #f2eeef;
+}
+progress, progress[value] {
+    -webkit-appearance: none;
+}
+progress::-webkit-progress-bar {
+    background-color: #eee;
+
+    border-radius: 3px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, .2) inset;
+}
+progress::-webkit-progress-value {
+    background-color: #99c038;
+
+    border-radius: 3px;
+}
+button[disabled] {
+    color: #5d5555;
+    text-shadow: 1px 1px 1px #fff;
+
+    background-color: #bbbaba;
+}
+button {
+    background-color: #bcd184;
+    outline: none;
+}
+button:nth-of-type(2) {
+    background-color: #bbbaba;
+}
+input[type="checkbox"] {
+    display: table;
+
+    margin: auto;
+}

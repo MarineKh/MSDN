@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+html, body, main {
+    height: 100%;
+    width: 100%;
+}
+.container {
+    width: 720px;
+
+    position: relative;
+
+    background-color: #d0cbcb;
+    box-shadow: 1px 0 16px #578503;
+
+    padding: 10px;
+    border-radius: 18px;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 150px;
+}
+h2 {
+    text-align: center;
+    color: #738e30;
+
+    padding: 10px 0;
+}
+a {
+    position: absolute;
+
+    font-size: 10px;
+    color: #6d8927;
+    text-decoration: none;
+    font-family: open-sans-condensed, sans-serif;
+    font-weight: 900;
+}
+img {
+    width: 25px;
+
+    position: absolute;
+}
+.guitar {
+    height: 700px;
+    width: 300px;
+
+    position: absolute;
+    top: 50px;
+    right: 750px;
+}
+.first, .second, .third, .fourth {
+    height: 360px;
+    width:60px;
+}
