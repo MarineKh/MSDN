@@ -42,13 +42,31 @@ img {
 }
 .guitar {
     height: 700px;
-    width: 300px;
+    width: 260px;
 
     position: absolute;
     top: 50px;
     right: 750px;
 }
-.first, .second, .third, .fourth {
-    height: 360px;
-    width:60px;
+canvas.first,
+canvas.second,
+canvas.third,
+canvas.fourth {
+    position: absolute;
+}
+canvas.first {
+    top: 105px;
+    right: 870px;
+}
+canvas.second {
+    top: 115px;
+    right: 875px;
+}
+canvas.third {
+    top: 140px;
+    right: 887px;
+}
+canvas.fourth {
+    top: 165px;
+    right: 895px;
 }
